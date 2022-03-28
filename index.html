@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container">
@@ -28,6 +28,7 @@
                 <option value="series">Series</option>
             </select>
             <div id="checkbox">
+                <label for="movie-type" id="movie-type">Movie Type</label><br>
                 <input type="checkbox" id="type1">
                 <label for="type1">Comedy</label><br>
                 <input type="checkbox" id="type2">
@@ -36,7 +37,7 @@
                 <label for="type3">Romance</label><br>
             </div>
             <div id="radio">
-                <label for="radio-heading">Gender</label><br>
+                <label for="radio-heading" id="gender">Gender</label><br>
                 <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Male</label><br>
                 <input type="radio" id="female" name="gender" value="female">
@@ -44,7 +45,7 @@
                 <input type="radio" id="other" name="gender" value="other">
                 <label for="other">Other</label>
             </div>
-            <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Any Comment..."></textarea><br>
+            <textarea name="feedback" id="feedback" cols="20" rows="5" placeholder="Any Comment..."></textarea><br>
             <button type="submit">Send</button>
         </form>
     </div>
